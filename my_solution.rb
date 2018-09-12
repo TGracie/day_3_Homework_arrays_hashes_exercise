@@ -182,12 +182,15 @@ united_kingdom = [
 
 # Use a loop to print the names of all the countries in the UK.
 
-  for countries in united_kingdom
-    return name
-  end
+  # for countries in united_kingdom
+  #   return name
+  # end
 
   # p united_kingdom
 
+for country in countries
+  p "#{country[:name]}"
+end
 
 # Use a loop to find the total population of the UK.
 
