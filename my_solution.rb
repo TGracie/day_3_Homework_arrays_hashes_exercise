@@ -131,6 +131,9 @@ users = {
 # p users["Erik"][:home_town] = "Edinburgh"
 
 # Add a pet dog to Erik called "Fluffy"
-p users["Erik"][:pets].push(:dog, "Fluffy")
+# p users["Erik"][:pets].push(:dog, "Fluffy")
 
 # Add another person to the users hash
+users["Thomas"] = {}
+
+p users["Thomas"]
