@@ -188,7 +188,7 @@ united_kingdom = [
 
   # p united_kingdom
 
-for country in countries
+for country in united_kingdom
   p "#{country[:name]}"
 end
 
