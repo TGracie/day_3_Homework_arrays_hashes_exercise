@@ -10,7 +10,7 @@ stops = [ "Croy",
 stops.push("Edinburgh Waverley")
 
 # Add "Glasgow Queen St" to the start of the array
-# stops.insert(0, "Glasgow Queen St")
+stops.insert(0, "Glasgow Queen St")
 
 # Add "Polmont" at the appropriate point (between "Falkirk High" and "Linlithgow")
 # stops.insert(3, "Polmont")
