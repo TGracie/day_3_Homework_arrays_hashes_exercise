@@ -134,6 +134,16 @@ users = {
 # p users["Erik"][:pets].push(:dog, "Fluffy")
 
 # Add another person to the users hash
-users["Thomas"] = {}
+users["Thomas"] = {
+  :twitter => "Doesn't have it",
+  :lottery_numbers => [3, 18, 26, 58, 9, 35],
+  :home_town => "Edinburgh",
+  :pets => [
+    {
+      :name => "Maggie",
+      :species => "Dog"
+    }
+  ]
+}
 
 p users["Thomas"]
