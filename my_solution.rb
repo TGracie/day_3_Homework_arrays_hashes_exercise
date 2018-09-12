@@ -28,10 +28,12 @@ stops = [ "Croy",
 # stops.length
 
 # How many ways can we return "Falkirk High" from the array?
-p stops.fetch(2)
-p stops[2]
+# p stops.fetch(2)
+# p stops[2]
 
 # Reverse the positions of the stops in the array
+p stops.reverse
+
 # Print out all the stops using a for loop
 
 # p stops
