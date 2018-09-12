@@ -32,8 +32,11 @@ stops = [ "Croy",
 # p stops[2]
 
 # Reverse the positions of the stops in the array
-p stops.reverse
+# p stops.reverse
 
 # Print out all the stops using a for loop
+for station in stops
+  p station
+end
 
 # p stops
